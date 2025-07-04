@@ -12,4 +12,11 @@ public class Building {
        public double getarea() {
          return area;
        }
+    public void floor(double floor) {
+          floor = floor;
+       }
+
+       public double getfloor() {
+         return floors;
+       }
 }
