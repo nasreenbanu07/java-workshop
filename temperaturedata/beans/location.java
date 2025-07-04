@@ -63,4 +63,18 @@ public class location{
        public String postalcode() {
          return postalcode;
        } 
+       public String toString() {
+          return "Location { name: " + name +
+          ",latitude : " + latitude +
+          ",longtitude : " + longtitude +
+          ",description : " + description +
+          ",address : " + address +
+          ",country : " + country +
+          ",city : " + city +
+          ",postalcode : " + postalcode+"}";
+          
+
+
+
+       }
 }
