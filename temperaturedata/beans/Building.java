@@ -1,10 +1,11 @@
+import java.lang.reflect.AccessFlag.Location;
 import java.time.LocalDateTime;
 public class Building {
     private double area;
     private int floors;
     private LocalDateTime openDateTime;
     private LocalDateTime closeDateTime;
-    private String description; 
+    private Sentences description; 
     public void area(double area) {
           area = area;
        }
@@ -19,4 +20,5 @@ public class Building {
        public double getfloor() {
          return floors;
        }
+   
 }

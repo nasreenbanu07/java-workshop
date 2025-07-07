@@ -1,4 +1,5 @@
-public class location{
+public class Location
+Location{
        private String name;
        private double latitude;
        private double longtitude;

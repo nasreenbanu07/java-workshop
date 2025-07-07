@@ -1,12 +1,12 @@
 public class zone {
-    private String name;
+    private Sentences name;
     private int zoneid;
-    private String type;
-    public void name(String name) {
+    private Sentences type;
+    public void name(Sentences name) {
           name = name;
        }
 
-       public String getname() {
+       public Sentences getname() {
          return name;
        }   
     public void zoneid(int zoneid) {
@@ -16,11 +16,11 @@ public class zone {
        public int getzoneid() {
          return zoneid;
        }  
-    public void type(String type) {
+    public void type(Sentences type) {
           type = type;
        }
 
-       public String gettype() {
+       public Sentences gettype() {
          return type;
        }          
 
