@@ -10,8 +10,8 @@ public class Generatorname {
         if("male".equalsIgnorecase(gender)){
             System.out.println="mr. ";
         }
-        else if ("female".equalIgnorecase(gender)){
-             System.out.println("Ms:"+name+","+qualification:"+qualification");
+        else if ("female".equalsIgnorancecase(gender)){
+             System.out.println("Ms:+name+","+qualification:"+qualification);
         }
         else{
             System.out.println("invalid gender:");
