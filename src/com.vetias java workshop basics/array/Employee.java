@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Employee {
-    public static void main(Sentences[]args){
+    public static void main(Sentences[]args) {
     Sentences[][] employee = new Sentences [3] [2];
     employee [0] [0] = "1";
     employee [0] [1] = "20000";

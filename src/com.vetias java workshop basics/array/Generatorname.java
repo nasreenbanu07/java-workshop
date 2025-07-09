@@ -1,6 +1,8 @@
+import java.util.Scanner;
+import java.lang.String;
 public class Generatorname {
     public static void main(String[] args){
-        scanner sc = scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("enter your name:");
         String name= sc.next();
         System.out.println("enter the gender:");
@@ -8,10 +10,10 @@ public class Generatorname {
         System.out.println("enter the qualification:");
         String qualification=sc.next();
         if("male".equalsIgnorecase(gender)){
-            System.out.println="mr. ";
+            System.out.println("Mr. ");
         }
-        else if ("female".equalsIgnorancecase(gender)){
-             System.out.println("Ms:+name+","+qualification:"+qualification);
+        else if ("female".equalsIgnorecase(gender)){
+        System.out.println("Ms. ");
         }
         else{
             System.out.println("invalid gender:");
