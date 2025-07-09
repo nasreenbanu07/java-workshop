@@ -4,8 +4,7 @@ public class Building {
     private double area;
     private int floors;
     private LocalDateTime openDateTime;
-    private LocalDateTime closeDateTime;
-    private Sentences description; 
+    private LocalDateTime closeDateTime; 
     public void area(double area) {
           area = area;
        }
