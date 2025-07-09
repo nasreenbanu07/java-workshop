@@ -5,7 +5,7 @@ import java.io.File;
 public class filehandling {
     public static void main(String[] args) {
         File file = new File("Example.txt");
-        if(file.is directory()) {
+        if(file.isDirectory()) {
             System.out.println("it is a directory:");
             File[] files = file.listFiles();
             if(files !=null) {
