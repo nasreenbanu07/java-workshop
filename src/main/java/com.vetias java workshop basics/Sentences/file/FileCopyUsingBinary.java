@@ -1,12 +1,11 @@
 
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class FileCopyUsingBinary {
     public static void main(String[] args) {
-        try(FileInputStream inputStream = new FileInputStream("anuroopa.jpg");
+        try(FileInputStream inputStream = new FileInputStream("input.txt");
         FileOutputStream outputStream = new FileOutputStream("output.txt")){
              byte[] chunk = new byte[1098];
              int byteRead;
@@ -20,6 +19,11 @@ public class FileCopyUsingBinary {
        
             
         }
+    }
+
+    @Override
+    public String toString() {
+        return "FileCopyUsingBinary []";
     }
 
 
