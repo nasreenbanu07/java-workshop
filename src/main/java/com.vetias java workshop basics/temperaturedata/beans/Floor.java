@@ -1,11 +1,12 @@
+
 public class Floor{
-    private Sentences name;
+    private String name;
     private int number;
-    public void name(Sentences name) {
+    public void name(String name) {
           name = name;
        }
 
-       public Sentences getname() {
+       public String getname() {
          return name;
        }   
     public void number(int number) {
