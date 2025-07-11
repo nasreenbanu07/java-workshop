@@ -1,5 +1,6 @@
 package com.vetias.java.workshop.basics.collections;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class ListExample {
@@ -10,7 +11,9 @@ public class ListExample {
         names.add("jemc");
         names.add("shakthi");
         names.add("nara");
-
+        names.forEach(System.out::println);
+        names.sort(Comparator.reverseOrder());
+       
         System.out.println(names);
         for (int i = 0;i< names.size();i++) {
             System.out.println((names.get(i)));
