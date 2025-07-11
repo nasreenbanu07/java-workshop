@@ -15,9 +15,23 @@ public class NamesStartWithScount {
         names.add("sachin");
         names.add("nara");
         names.add("shakthi");
-        names.stream();
-        filternames -> names.startsWith("S") || name.startsWith("S");
-        
+        names.add("sarvesh");
+        names.stream()
+            .filter(name -> name.startsWith("s") || name.startsWith("S"))
+            .distinct()
+            .map(String::toUpperCase)
+            .forEach(System.out::println);
+
+        long count = names.stream()
+            .filter(name -> name.startsWith("s") || name.startsWith("S"))
+            .count();
+    
+        System.out.println("number of names starting with 's': " + count);
+
+
+
+
         System.out.println("number of names starting with 's':" +names);
 }
 }
+
